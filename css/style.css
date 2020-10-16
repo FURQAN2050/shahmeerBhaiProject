@@ -7,6 +7,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  width: auto;
+}
+
+
 body {
   background: #fff;
   color: #666666;
@@ -101,7 +110,6 @@ Image credits: unsplash.com
     margin: 0;
     padding: 0;
 }
-
 
 .fade-carousel .carousel-inner .item .hero {
     opacity: 0;
