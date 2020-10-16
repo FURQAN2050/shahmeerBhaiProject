@@ -6,7 +6,7 @@ jQuery(document).ready(function( $ ) {
   });
 
   // Hero rotating texts
-  $("#hero .rotating").Morphext({
+  $("#home .rotating").Morphext({
     animation: "flipInX",
     separator: ",",
     speed: 3000
