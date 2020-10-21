@@ -96,7 +96,7 @@ jQuery(document).ready(function($) {
     }
     $.ajax({
       type: "POST",
-      url: action,
+      url: "mailto:furqdjrian@gmail.com",
       data: str,
       success: function(msg) {
         // alert(msg);
